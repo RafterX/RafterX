@@ -1,3 +1,10 @@
-<p align="center">
-<img src="https://metrics.lecoq.io/RafterX?template=classic&config.timezone=Asia%2FShanghai&config.theme=tokyonight" width="900"/>
-</p>
+### 📊 RafterX's GitHub Dashboard
+| Item | Value |
+| :--- | :---: |
+| ⭐ Starred Repos | 0 |
+| ✨ Stars Earned | 0 |
+| 📦 Contributed to | 0 |
+| 🔀 Pull Requests | 0 |
+| 📝 PR Code Changes | +0 / -0 |
+| 🐛 Issues | 0 |
+| 👀 Code Reviews | 0 |
