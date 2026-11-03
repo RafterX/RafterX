@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- 标题 -->
-  <h1>Hi 👋 ，I'm 漂泊者 🚤</h1>
+  <!-- 标题：用 h1，但强制去掉底部灰线 -->
+  <h1 align="center" style="border-bottom: none !important; font-size: 32px; margin-bottom: 20px;">Hi 👋 ，I'm 漂泊者 🚤</h1>
 
   <p align="center">
     <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> 
@@ -16,13 +16,20 @@
 <!-- 彩色横线 -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3" />
 
-<!-- 卡片区域：强制同高对齐 -->
-<div style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap; margin-top: 20px;">
+<br/>
 
-  <!-- 左侧卡片：锁定高度 195px -->
-  <img src="https://github-stats-extended.vercel.app/api?username=RafterX&theme=github-light&show_icons=true" alt="GitHub Stats" style="height: 195px;" />
-
-  <!-- 右侧卡片：锁定高度 195px，并用 card_width 撑满宽度 -->
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=RafterX&theme=github-light&langs_count=6&card_width=495" alt="Top Langs" style="height: 195px;" />
-
-</div>
+<!-- 绝对隐形的表格布局：无边框、无缝隙、绝对并排 -->
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="middle">
+      <!-- 左侧卡片，锁定高度 -->
+      <img src="https://github-stats-extended.vercel.app/api?username=RafterX&theme=github-light&show_icons=true" height="195" alt="GitHub Stats" />
+    </td>
+    <td align="center" valign="middle">
+      <!-- 右侧卡片，锁定高度，加了一点左侧间距 -->
+      <div style="margin-left: 15px;">
+        <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=RafterX&theme=github-light&langs_count=6&card_width=495" height="195" alt="Top Langs" />
+      </div>
+    </td>
+  </tr>
+</table>
