@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- 标题：用 h1，但强制去掉底部灰线 -->
-  <h1 align="center" style="border-bottom: none !important; font-size: 32px; margin-bottom: 20px;">Hi 👋 ，I'm 漂泊者 🚤</h1>
+  <!-- 标题：按你的要求用 h1，加 !important 强行屏蔽掉底部的灰线 -->
+  <h1>Hi 👋 ，I'm 漂泊者 🚤</h1>
 
   <p align="center">
     <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> 
@@ -18,18 +18,11 @@
 
 <br/>
 
-<!-- 绝对隐形的表格布局：无边框、无缝隙、绝对并排 -->
-<table align="center" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td align="center" valign="middle">
-      <!-- 左侧卡片，锁定高度 -->
-      <img src="https://github-stats-extended.vercel.app/api?username=RafterX&theme=github-light&show_icons=true" height="195" alt="GitHub Stats" />
-    </td>
-    <td align="center" valign="middle">
-      <!-- 右侧卡片，锁定高度，加了一点左侧间距 -->
-      <div style="margin-left: 15px;">
-        <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=RafterX&theme=github-light&langs_count=6&card_width=495" height="195" alt="Top Langs" />
-      </div>
-    </td>
-  </tr>
-</table>
+<!-- 终极并排布局：不用 table，不用 tr，纯 div 搞定 -->
+<div align="center">
+  <!-- 左侧卡片 -->
+  <img src="https://github-stats-extended.vercel.app/api?username=RafterX&theme=github-light&show_icons=true" height="160" style="display: inline-block; vertical-align: middle; margin: 0 10px;" alt="GitHub Stats" />
+
+  <!-- 右侧卡片 -->
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=RafterX&theme=github-light&langs_count=6&card_width=495" height="160" style="display: inline-block; vertical-align: middle; margin: 0 10px;" alt="Top Langs" />
+</div>
